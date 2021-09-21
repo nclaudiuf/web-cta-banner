@@ -1,0 +1,75 @@
+@import './theme.scss';
+
+body {
+	background-color: rgb(255, 255, 255, 0);
+	background: linear-gradient(
+		90deg,
+		rgba(251, 252, 253, 1) 0%,
+		rgba(255, 255, 255, 1) 100%
+	) !important;
+}
+
+.text-secondary-light {
+	color: var(--secondary-light) !important;
+}
+h1, .text-light {
+	font-weight: 600;
+	color: var(--light) !important;
+}
+
+.hide-lg,
+.hide-md,
+.hide-sm {
+	display: inherit;
+}
+@media only screen and (max-width: 992px) {
+	.hide-lg {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.hide-md {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.hide-sm {
+		display: none !important;
+	}
+}
+
+.badge {
+	font-size: 80%;
+	font-weight: 700;
+}
+
+.lead {
+	color: var(--neutral) !important;
+	font-size: 1.125rem;
+}
+
+/* CTA Banner Block */
+.cta-banner {
+	background: rgb(49, 49, 49);
+	background: linear-gradient(
+		-125deg,
+		rgba(49, 49, 49, 1) 0%,
+		rgba(18, 18, 18, 0.9) 45%,
+		rgba(18, 18, 18, 1) 100%
+	) !important;
+}
+
+.hover-effect,
+.hover-effect:hover {
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+a.hover-effect:hover,
+img.hover-effect:hover {
+	opacity: 0.6;
+}
+
+.wave-line {
+	display: block;
+}
