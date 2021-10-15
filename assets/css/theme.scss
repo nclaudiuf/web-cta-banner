@@ -99,11 +99,7 @@ $svg-icon-base: 1;
 // Page Settings
 $body-color: $secondary;
 $body-bg: $light;
-$body-bg: ease-gradient(
-	60deg,
-	rgba(251, 252, 253, 1),
-	rgba(229, 229, 229, .5)
-);
+$body-bg: #fbfcfd;
 $body-text-align: center;
 
 // Badge
