@@ -1,9 +1,9 @@
-.lead {
-	color: rgba($lead-color, .75);
+.lead, .title {
+	color: var(--neutral) !important;
 }
 @media (max-width: 768px) {
-	.lead {
-		color: rgba($lead-color, .85);
+	.lead, .title {
+		color: var(--neutral) !important;
 	}
 }
 .subtitle {
